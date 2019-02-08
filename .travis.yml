@@ -6,5 +6,5 @@ python:
 install: 
   - pip install keras
   
-  script:
-    - keras
+script:
+  - keras
