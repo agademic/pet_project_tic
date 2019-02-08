@@ -4,7 +4,7 @@ python:
   - "3.6"
 
 install: 
-  - pip install keras
+  - conda install keras
   
 script:
   - keras
