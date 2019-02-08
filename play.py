@@ -8,13 +8,12 @@ Created on Fri Dec  7 21:51:19 2018
 import game_class as gc
 import move_selector as ms
 from evaluator_model import create_model
+from keras.optimizers import SGD
 
-def load_trained_model(weights_path):
-   model = create_model()
-   model.load_weights(weights_path)
-
-model = load_trained_model('my_model.h5')
-
+model = create_model()
+model.load_weights("my_model.h5")
+sgd = SGD(lr=0.001, momentum=0.8,nesterov=False)
+model.compile(loss='mean_squared_error', optimizer=sgd)
 print("___________________________________________________________________")
 print("Welcome to the Tic Tac Toe Game")
 print("You will be playing against a self learned Program")
