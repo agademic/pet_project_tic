@@ -46,7 +46,7 @@ while play_again == "Y":
                     game_status, board = game.move(0, coord)
                     print(board)
                     break
-                except:
+                except TypeError:
                     print("Invalid Move")
         elif game.game_status() == "In Progress" and game.turn_monitor == 1:
             print("Program's turn")
