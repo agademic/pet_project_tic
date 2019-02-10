@@ -40,3 +40,18 @@ My clean code principles are based on the 'clean code cheat sheet', which can be
 
 [Example 5](https://github.com/agademic/pet_project_tic/blob/master/opponent.py#L316): Methods
 
+# DSL
+
+Domain Specific Language does not contibute to my project. A code snipped can be found here: 
+
+# Functional Programming
+
+only final data structures:
+
+(mostly) side effect free functions:
+
+the use of higher order functions:
+
+functions as parameters and return values:
+
+use clojures / anonymous functions:
