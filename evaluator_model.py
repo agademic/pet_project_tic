@@ -12,17 +12,21 @@ from keras.optimizers import SGD
 from keras.layers import Dropout
 
 def create_model():
+    """Function that creates a neural network for evaluation of the following
+    turn.
+
+    """
     model = Sequential()
-    
+
     model.add(Dense(18, input_dim=9, kernel_initializer='normal', activation='relu'))
     model.add(Dropout(0.1))
     model.add(Dense(9, kernel_initializer='normal', activation='relu'))
     model.add(Dropout(0.1))
     model.add(Dense(1, kernel_initializer='normal'))
-    
+
     learning_rate = 0.001
     momentum = 0.8
-    sgd = SGD(lr=learning_rate, momentum=momentum,nesterov=False)
+    sgd = SGD(lr=learning_rate, momentum=momentum, nesterov=False)
     model.compile(loss='mean_squared_error', optimizer=sgd)
     model.summary()
     return model
