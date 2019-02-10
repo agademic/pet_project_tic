@@ -18,3 +18,5 @@ The third diagram shows the game process as a whole.
 
 # METRICS
 
+# TRAVIS CI
+[![Build Status](https://travis-ci.org/agademic/pet_project_tic.svg?branch=master)](https://travis-ci.org/agademic/pet_project_tic)
