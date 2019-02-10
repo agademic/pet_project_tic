@@ -18,5 +18,8 @@ The third diagram shows the game process as a whole.
 
 # METRICS
 
+Sonarcube:
+[![sonar cube]( https://sonarcloud.io/api/project_badges/measure?project=Sonar_PetProject&metric=alert_status)](https://sonarcloud.io/dashboard?id=agademic_pet_project_tic)
+
 # TRAVIS CI
 [![Build Status](https://travis-ci.org/agademic/pet_project_tic.svg?branch=master)](https://travis-ci.org/agademic/pet_project_tic)
