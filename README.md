@@ -18,8 +18,25 @@ The third diagram shows the game process as a whole.
 
 # METRICS
 
-Sonarcube:
+Sonarcube performs a scan with three different metrics in Bugs, Vulnerabilities and Code Smells and rates all three categories:
+Sonarcube rated the code with an overall rating of A. The scanner found 0 bugs and 0 vulnerabilities. It found some issues in the naming of variables but still gave an A rating in the Code Smells section.
 [![sonar cube]( https://sonarcloud.io/api/project_badges/measure?project=Sonar_PetProject&metric=alert_status)](https://sonarcloud.io/dashboard?id=agademic_pet_project_tic)
 
 # TRAVIS CI
+
 [![Build Status](https://travis-ci.org/agademic/pet_project_tic.svg?branch=master)](https://travis-ci.org/agademic/pet_project_tic)
+
+# CLEAN CODE
+
+My clean code principles are based on the 'clean code cheat sheet', which can be found here: [Link](https://www.planetgeek.ch/wp-content/uploads/2013/06/Clean-Code-V2.2.pdf)
+
+[Example 1](https://github.com/agademic/pet_project_tic/blob/master/evaluator_model.py#L15): General and Understandability
+
+[Example 2](https://github.com/agademic/pet_project_tic/blob/master/play.py#L20): High Cohesion
+
+[Example 3](https://github.com/agademic/pet_project_tic/blob/master/game_class.py#L12): Class Design
+
+[Example 4](https://github.com/agademic/pet_project_tic/blob/master/opponent.py#L14): Naming
+
+[Example 5](https://github.com/agademic/pet_project_tic/blob/master/opponent.py#L316): Methods
+
