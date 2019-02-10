@@ -6,6 +6,7 @@ Created on Fri Nov 30 14:46:49 2018
 @author: a.gogohia
 """
 
+
 from keras.models import Sequential
 from keras.layers import Dense
 from keras.optimizers import SGD

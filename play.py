@@ -5,6 +5,8 @@ Created on Fri Dec  7 21:51:19 2018
 
 @author: a.gogohia
 """
+
+
 from keras.optimizers import SGD
 from evaluator_model import create_model
 import game_class as gc

@@ -6,6 +6,7 @@ Created on Fri Dec  7 19:04:47 2018
 @author: a.gogohia
 """
 
+
 import random
 import numpy as np
 import legal_moves_func as lmg

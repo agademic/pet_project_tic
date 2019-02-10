@@ -6,6 +6,7 @@ Created on Fri Nov 30 14:30:18 2018
 @author: a.gogohia
 """
 
+
 def legal_moves_generator(current_board_state, turn_monitor):
     """Function that returns the set of all possible legal moves and resulting
     board states, for a given input board state and player
