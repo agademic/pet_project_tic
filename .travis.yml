@@ -6,5 +6,6 @@ python:
 install:
   - pip install keras
   - pip install tensorflow
+  - pip install pylint
 
 script: pylint
