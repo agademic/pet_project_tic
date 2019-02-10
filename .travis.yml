@@ -6,6 +6,6 @@ python:
 install:
   - pip install keras
   - pip install tensorflow
-  - pip install pylint
+  - pip install flake8
 
-script: pylint
+script: flake8
