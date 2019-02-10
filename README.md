@@ -46,12 +46,12 @@ Domain Specific Language does not contibute to my project. A code snipped can be
 
 # Functional Programming
 
-only final data structures:
+[only final data structures:](https://github.com/agademic/pet_project_tic/blob/master/training.py#L34)
 
-(mostly) side effect free functions:
+[(mostly) side effect free functions:](https://github.com/agademic/pet_project_tic/blob/master/opponent.py#L39)
 
-the use of higher order functions:
+[the use of higher order functions:](https://github.com/agademic/pet_project_tic/blob/master/move_selector.py#L31)
 
-functions as parameters and return values:
+[functions as parameters and return values:](https://github.com/agademic/pet_project_tic/blob/master/move_selector.py#L39)
 
-use clojures / anonymous functions:
+use clojures / anonymous functions: No usage of anonymous functions in that program.
