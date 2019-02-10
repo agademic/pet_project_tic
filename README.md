@@ -42,7 +42,7 @@ My clean code principles are based on the 'clean code cheat sheet', which can be
 
 # DSL
 
-Domain Specific Language does not contibute to my project. A code snipped can be found here: 
+Domain Specific Language does not contibute to my project. A code snipped can be found here: [dsl.py](https://github.com/agademic/pet_project_tic/blob/master/dsl.py#L2)
 
 # Functional Programming
 
